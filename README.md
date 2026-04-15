@@ -6,9 +6,19 @@ Each lesson is 90 minutes and follows the teaching principles from *What the Bes
 
 ## Submitting exercises
 
-Each exercise is submitted as a separate pull request. Create a new branch per exercise (e.g. `exercise-1-promises`) and open a PR against `main` when you are done.
+Each exercise is submitted as a separate pull request. A branch is already prepared for each exercise in your repo. Check out the branch for the exercise you are working on, make your changes, push, and open a PR against `main`.
 
-Before requesting review, go through the checklist below. Reviewers will use the same list when assessing your PR, so it doubles as a self-check and a guide for what to include in your PR description.
+```bash
+git checkout lesson-1/exercise-1   # switch to the exercise branch
+# ... write your code ...
+git add .
+git commit -m "Lesson 1 — Exercise 1"
+git push
+```
+
+Then open a pull request on GitHub from `lesson-1/exercise-1` into `main`.
+
+Before requesting review, go through the checklist below. It also auto-fills when you open a PR on GitHub, so it doubles as your PR description template.
 
 ### Pull request checklist
 
